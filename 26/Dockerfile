@@ -1,4 +1,4 @@
-FROM nextcloud:26.0.3-apache
+FROM nextcloud:26.0.4-apache
 
 RUN apt-get update
 RUN apt install -y bzip2 libbz2-dev && docker-php-ext-install bz2

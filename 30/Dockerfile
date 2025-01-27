@@ -1,4 +1,6 @@
-FROM nextcloud:30.0.4-apache
+FROM nextcloud:30.0.5-apache
+
+LABEL org.opencontainers.image.description "Official Nextcloud base image plus some useful Linux packages"
 
 RUN apt-get update
 RUN apt install -y bzip2 libbz2-dev && docker-php-ext-install bz2

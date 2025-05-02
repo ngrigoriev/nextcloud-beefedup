@@ -1,4 +1,4 @@
-FROM nextcloud:30.0.6-apache
+FROM nextcloud:30.0.10-apache
 
 LABEL org.opencontainers.image.description "Official Nextcloud base image plus some useful Linux packages"
 
